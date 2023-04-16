@@ -1,4 +1,4 @@
-#Regex Tutorial
+# Regex Tutorial
 A regular expression is a sequence of characters that defines a search pattern. It consists of various components, including: Literals: These are the characters or strings that you want to match exactly.
 
 Metacharacters: These are special characters that have a specific meaning in a regular expression.
