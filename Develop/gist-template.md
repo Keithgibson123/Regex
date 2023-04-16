@@ -26,6 +26,7 @@ In this tutorial, I am going to explain about Regex or regular expression. Regex
 - [Quantifiers](#quantifiers)
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
+- [Bounderies](#bounderies)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
@@ -91,6 +92,9 @@ When matching, we have to make sure we are following the guidelines of the group
 ### Bracket Expressions
 
 Represents a character set via a list of characters enclosed by the square brackets. "[" and "]". It matches the target with any single character from the list. Bracket expressions in thie regex: [a-z0-9_.-] --> matching any letter a-z and is case senstive. It also matches a character 0-9 and matches the characters "\_" , "-" , and "."; [\da-z.-] --> matching a single digit from 0-9, any character a-z (case senstive), and the characters "." and "-".; [a-z.] --> matches any character a-z(case senstive) and the character "."
+
+### Bounderies
+Word bounderies are similar to anchors They allow you to match the whole word using a regular expression. For example, /bHello/b would match the string "Hello".
 
 ### Flags
 
